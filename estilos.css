@@ -1,0 +1,50 @@
+.caja{
+    border: solid grey;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.perfil  {
+    display: flex;
+    align-items: center;
+}
+.perfil img {
+    height: 45px;
+    border-radius: 45px;
+    margin-right: 8px;
+}
+.perfil p{
+    font-weight: bold;
+}
+.contenido img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin right: 4px;
+    margin left: 4px;
+}
+.final{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.opciones img {
+    margin-right: 8px;
+}
+.save img{
+    margin-right: 2px;
+}
+
+.mas m{
+    font-weight: bold;
+    
+}
+.mas p{
+    color: #D7DBDD ;
+}
